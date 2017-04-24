@@ -18,9 +18,20 @@ namespace ConsoleApplication1
     // class
     class Program
     {
-        // Main!
+        // Main! Ctrl + F5 to excute Main
         static void Main(string[] args)
         {
+            Console.Write("write\n");
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("{0} {1} {2}", true, false, 3.14f);
+            Console.WriteLine("{0} + {1} = {2}", 1, 2, 1 + 2);
+
+            // C - 통화($, W 등) 표시
+            // N - 콤마 출력
+            // P - % 단위로 출력
+            // X - 16진수 출력
+            Console.WriteLine("{0:C} {1:P} {0:X}", 123, 123.45);
+
 
         }
 
