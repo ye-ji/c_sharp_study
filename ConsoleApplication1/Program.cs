@@ -18,7 +18,32 @@ namespace ConsoleApplication1
     // class
     class Program
     {
+
+
+        static void Main(String[] args)
+        {
+            string filePath = @"C:\Users\scoleridge\Documents\";
+            Console.WriteLine(filePath);
+            //Output: C:\Users\scoleridge\Documents\
+
+            string text = @"My pensive SARA ! thy soft cheek reclined
+            Thus on mine arm, most soothing sweet it is
+            To sit beside our Cot,...";
+            Console.WriteLine(text);
+            /* Output:
+            My pensive SARA ! thy soft cheek reclined
+               Thus on mine arm, most soothing sweet it is
+               To sit beside our Cot,... 
+            */
+
+            string quote = @"Her name was ""Sara.""";
+            Console.WriteLine(quote);
+            //Output: Her name was "Sara."
+        }
+
+
         // Main! Ctrl + F5 to excute Main
+        /*
         static void Main(string[] args)
         {
             Console.Write("write\n");
@@ -34,12 +59,12 @@ namespace ConsoleApplication1
 
 
         }
-
-       /*
-        static int Main(string[] args)
-        {
-            return 0;
-        }
         */
+        /*
+         static int Main(string[] args)
+         {
+             return 0;
+         }
+         */
     }
 }
